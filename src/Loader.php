@@ -9,6 +9,7 @@ namespace Foolz\Plugin;
  * @package  Foolz\Plugin
  * @license  http://www.apache.org/licenses/LICENSE-2.0.html Apache License 2.0
  */
+#[\AllowDynamicProperties]
 class Loader extends \Foolz\Package\Loader
 {
     /**
